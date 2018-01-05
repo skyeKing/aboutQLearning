@@ -2,6 +2,8 @@
 开始学习Qlearning<br>
 <h3>Qlearning 转移方程</h3><br>
 <h4>Q(s,a) = R(s,a) + gamma*max{Q(s~,a~)}</h4><br>
+<b>Q-value for state and action = reward + discount * max Q-value for next state</b>
+https://www.youtube.com/watch?v=Vz5l886eptw
 <ul>
   <li>s为state的简写，意为状态。在这个公式中为当前所处的状态状态</li>
   <li>a为action的简写，意为行为、行动。在这个公式中为当初在状态s，所采取的行动</li>
