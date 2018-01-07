@@ -1,5 +1,15 @@
 # aboutQLearning<br>
 开始学习Qlearning<br>
+
+###python还是建议在conda的环境下进行编译，并使用清华镜像。
+清华镜像参考网址：http://blog.csdn.net/pengjian444/article/details/51924469<br>
+conda create -n QLearning python=3.5 创建一个名为QLearning的环境，使用python版本为3.5<br>
+conda install -n QLearning numpy matplotlib pillow pywin32 jupyter 为环境QLearning安装库<br>
+conda env list 列出当前conda下的所有环境<br>
+activate QLearning 激活环境QLearning<br>
+接下来就可以开心使用ipython 进行网页化的编程了<br>
+
+
 <h3>Qlearning 转移方程</h3><br>
 <h4>Q(s,a) = R(s,a) + gamma*max{Q(s~,a~)}</h4><br>
 <b>Q-value for state and action = reward + discount * max Q-value for next state</b><br>
@@ -28,10 +38,6 @@ https://www.youtube.com/watch?v=Vz5l886eptw
       <li>根据 a，得到状态 s~</li>
       <li>转移方程更新Q表</li>
       <li>s = s~（更新状态）</li>
-###python还是建议在conda的环境下进行编译，并使用清华镜像。
-清华镜像参考网址：http://blog.csdn.net/pengjian444/article/details/51924469<br>
-conda create -n QLearning python=3.5 创建一个名为QLearning的环境，使用python版本为3.5<br>
-conda install -n QLearning numpy matplotlib pillow pywin32 为环境QLearning安装库<br>
-conda env list 列出当前conda下的所有环境
+
      
     
